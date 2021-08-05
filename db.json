@@ -1,0 +1,34 @@
+{
+  "bikes": [
+    {
+      "id": "564",
+      "name": "Celvin Klein",
+      "type": "motos",
+      "color": "red",
+      "wheelSize": "54",
+      "price": "350",
+      "description": "swijh wdujh qwiuh qwkih",
+      "status": "busy"
+    },
+    {
+      "id": "552",
+      "name": "kjewf",
+      "type": "we",
+      "color": "black",
+      "wheelSize": "45",
+      "price": "120",
+      "description": "dsf regf",
+      "status": "available"
+    },
+    {
+      "id": "541",
+      "name": "Ukraine",
+      "type": "motobike",
+      "color": "brown",
+      "wheelSize": "21",
+      "price": "100",
+      "description": "efv jjfd ejj",
+      "status": "unavailable"
+    }
+  ]
+}

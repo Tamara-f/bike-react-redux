@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: 'Saira', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vl {
+  height: 658px;
+  border: 1px solid #c4c4c4;
+}
+.hl {
+  width: 649px;
+  border: 1px solid #c4c4c4;
+}
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 618px;
+  margin-bottom: 10px;
+  background: #e8e8e8;
+  border: 2px solid #6fcf97;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1, 5;
+}
+
+span {
+  font-size: 40px;
+  cursor: pointer;
+  line-height: 0;
+  opacity: 0.5;
+}
+span:hover {
+  opacity: 1;
+  color: #86a8e7;
+}
+.item p,
+select {
+  margin: 0 10px;
+}
+.rightBlock {
+  width: 50%;
+  margin: 0 15px;
+}
+
+.rightBlock form {
+  width: fit-content;
+  padding: 20px;
+}
+
+input,
+textarea {
+  font-size: 12px;
+  font-family: 'Saira';
+  width: 220px;
+  padding: 5px 16px;
+  margin: 5px;
+  background: #e8e8e8;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  width: 482px;
+}
+
+.bikeList {
+  width: 50%;
+  padding-top: 25px;
+}
+
+.btns {
+  width: 514px;
+  padding: 5px;
+}
+
+.btns button {
+  font-family: 'Saira';
+  width: 47%;
+  background: #696969;
+  border-radius: 5px;
+  color: #fff;
+  height: 24px;
+  border: none;
+}
+
+.priceCover {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price {
+  font-size: 24px;
+}
+.id {
+  font-size: 8px;
+}
+.name {
+  text-transform: uppercase;
+}
+.name :first-child {
+  font-weight: bold;
+}
+.stats {
+  padding: 20px;
+}
+select {
+  background: #e8e8e8;
+  border: none;
+  text-align-last: right;
+}
+.red {
+  border-color: red;
+  opacity: 0.5;
+}
+.orange {
+  border-color: orange;
+}
